@@ -15,7 +15,7 @@ const another_array = [1,2,3,[4,5,6], 7, [8,[9,10]]]
 
 console.log(Array.isArray("Hitesh"));
 console.log(Array.from("Hitesh"));
-console.log(Array.from({name: "Hitesh"}));
+console.log(Array.from({name: "Hitesh"})); //interesting
 
 let score1 = 100;
 let score2 = 200;
