@@ -1,4 +1,4 @@
-// Singleton
+// Singleton (constructor se agar banega to singleton banega)
 // Object.create
 
 // Object literals
@@ -8,7 +8,7 @@ const mySym = Symbol("key1")
 const JsUser = {
     name: "Sujal",
     "full name": "Sujal Gupta",
-    [mySym]: "mykey1",
+    [mySym]: "mykey1", //isi tarah se symbol ko as a key use karte hai
     age: "21",
     location: "Delhi",
     email: "sujal@google.com",
@@ -18,7 +18,7 @@ const JsUser = {
 
 // console.log(JsUser.location);
 // console.log(JsUser["full name"]);
-// console.log(JsUser[mySym]);
+// console.log(JsUser[mySym]); //specifically for symbols
 
 JsUser.email = "sujal@chatgpt.com"
 // Object.freeze(JsUser)
