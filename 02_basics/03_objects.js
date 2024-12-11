@@ -34,3 +34,5 @@ JsUser.greetingTwo = function() {
 }
 
 JsUser.greetingTwo();
+
+// If function doesn't have anything to return, it will return undefined.
